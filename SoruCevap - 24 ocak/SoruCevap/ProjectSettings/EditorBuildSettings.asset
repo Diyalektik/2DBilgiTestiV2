@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/1-MainMenu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/2-Intro.unity
+    guid: 31c24091d1925db45bf9bbe24718981e
+  - enabled: 1
+    path: Assets/Scenes/3-Question1.unity
+    guid: 848dfd5de2cd1cb429c608476c6bfe74
+  - enabled: 1
+    path: Assets/Scenes/4-Question2.unity
+    guid: ea671eff81815f24e99ea24c00af76e8
+  - enabled: 1
+    path: Assets/Scenes/5-Question3.unity
+    guid: 60bc9285f4baf3b4688fa5c041deff15
+  - enabled: 1
+    path: Assets/Scenes/6-SeasonBreak1-2.unity
+    guid: e4794f204704e2047be6b3299c731ad3
+  - enabled: 1
+    path: Assets/Scenes/7-Question4-S2.unity
+    guid: ee0cb3f92707fbc4dbb2b61210269b76
+  - enabled: 1
+    path: Assets/Scenes/8-Question5-S2.unity
+    guid: e5bcedfee3d47ed41a072622271d96be
+  - enabled: 1
+    path: Assets/Scenes/9-Question6-S2.unity
+    guid: 5c994b6f56ee2984d88188577287450b
+  - enabled: 1
+    path: Assets/Scenes/10-SeasonBreak2-3.unity
+    guid: b0ecdb2261db0a643acf4aa6315d2f2a
+  - enabled: 1
+    path: Assets/Scenes/11-Question7-S3.unity
+    guid: 339070c77aca3774ca17df3beaa3938d
+  m_configObjects: {}
