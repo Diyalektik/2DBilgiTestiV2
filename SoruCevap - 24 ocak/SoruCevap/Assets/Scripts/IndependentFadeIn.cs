@@ -33,6 +33,12 @@ public class IndependentFadeIn : MonoBehaviour {
         //StartCoroutine(FadeTextToFullAlpha(0.5f));
     }
 
+    private void OnDestroy()
+    {
+        SeasonBreakUpdates.toFadeIn -= RunFadeIn;
+        SeasonBreakUpdates.toFadeOut -= RunFadeOut;
+    }
+
     public void RunFadeIn()
     {
         StartCoroutine(FadeTextToFullAlpha(1));
@@ -70,15 +76,10 @@ public class IndependentFadeIn : MonoBehaviour {
                 yield return null;
             }
         }
-        StartCoroutine(SeasonChange());
+        dataStorage.GetComponent<DataStorage>().ChangeSeason();
 
     }
-    IEnumerator SeasonChange()
-    {
-        // yield return new WaitForSeconds(1);
-        dataStorage.GetComponent<DataStorage>().ChangeSeason();
-        yield return null;
-    }
+  
 
     public IEnumerator FadeTextToFullAlpha(float t)
     {

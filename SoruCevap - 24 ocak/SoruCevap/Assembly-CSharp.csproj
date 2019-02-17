@@ -80,16 +80,16 @@
     <Compile Include="Assets\Typewriter Custom Styles\Scripts\TW_Regular.cs" />
     <None Include="Assets\Typewriter Custom Styles\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/SoruCevap - 24 ocak OnurEmre/SoruCevap/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/SoruCevap - 24 ocak/SoruCevap/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/SoruCevap - 24 ocak OnurEmre/SoruCevap/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/SoruCevap - 24 ocak/SoruCevap/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/SoruCevap - 24 ocak OnurEmre/SoruCevap/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/SoruCevap - 24 ocak/SoruCevap/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/SoruCevap - 24 ocak OnurEmre/SoruCevap/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/SoruCevap - 24 ocak/SoruCevap/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
